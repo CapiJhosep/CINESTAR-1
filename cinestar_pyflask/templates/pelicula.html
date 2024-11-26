@@ -1,0 +1,45 @@
+﻿{% extends "index.html" %}
+{% block contenido_interno %}
+
+	<br/><h1> Cartelera </h1><br/>
+
+		<div class="contenido-pelicula">
+			<div class="datos-pelicula">
+				<h2> {{ pelicula[ 'Titulo' ]}} </h2>
+
+				<p> {{ pelicula[ 'Sinopsis' ]}} </p>
+				
+				<br/>
+
+				<div class="tabla">
+					<div class="fila">
+						<div class="celda-titulo">Título Original :</div>
+						<div class="celda"> {{ pelicula[ 'Titulo' ]}} </div>
+					</div>
+
+					<div class="fila">
+						<div class="celda-titulo">Estreno :</div>
+						<div class="celda"> {{ pelicula[ 'FechaEstreno' ]}} </div>
+					</div>
+
+					<div class="fila">
+						<div class="celda-titulo">Género :</div>
+						<div class="celda"> {{ pelicula[ 'Generos' ]}} </div>
+					</div>
+
+					<div class="fila">
+						<div class="celda-titulo">Director :</div>
+						<div class="celda"> {{ pelicula[ 'Director' ]}} </div>
+					</div>
+
+					<div class="fila">
+						<div class="celda-titulo">Reparto :</div>
+						<div class="celda"> {{ pelicula[ 'Reparto' ]}} </div>
+					</div>
+				</div>
+			</div>
+
+			<img src="{{ url_for( 'static', filename = 'img/pelicula/'~pelicula['id']~'.jpg' )}}" width="160" height="226"><br/><br/>
+		</div>
+	
+{% endblock contenido_interno %}

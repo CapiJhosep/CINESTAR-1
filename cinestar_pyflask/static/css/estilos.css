@@ -1,0 +1,409 @@
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code { font-size: 1em; }
+
+a img, :link img, :visited img { border: none; }
+
+a:link, a:visited { }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/varios/bg-web.jpg);
+    background-repeat: repeat-x;
+    font-family: "Century Gothic", Arial, Verdana;
+}
+
+header{
+    width: 940px;
+    height: 468px;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    height: 67px;
+    float: left;
+    background-image: url(../img/varios/bg-footer.jpg);
+    background-repeat: repeat-x;
+    background-color: #ccc;
+}
+
+footer .contenido-footer {
+    margin: 0 auto;
+    width: 940px;
+    height: 67px;
+    background-image: url(../img/varios/bg-top-footer.jpg);
+    background-repeat: no-repeat;
+    padding: 10px 0 0 350px;
+}
+
+footer p {
+    width: 540px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #666666;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+h2 {
+    font-size: 14px !important;
+    color: #000;
+    margin-bottom: 0.7em !important;
+    margin-top: 1em !important;
+    padding-left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Century Gothic", Arial, Verdana !important;
+    font-size: 12px;
+    margin-bottom: 0em;
+    margin-top: 0.8em !important;
+    color: #666666;
+     line-height: 15px;
+    text-decoration: none;
+}
+
+.nav-sec {
+    width: auto;
+    height: 19px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+    margin-top: 4px;
+}
+
+.nav-sec a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-sec a:hover {
+    color: #f6ec4f;
+}
+
+.area-logo {
+    width: 235px;
+    height: 112px;
+    margin: 0 0 0 320px;
+}
+
+.menu {
+    width: 940px;
+    height: 32px;
+    margin-top: 10px;
+    float: left;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+nav span.social {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    width: 87px;
+    float: right;
+    margin-top: 2px;
+}
+
+nav span.img-social {
+    float: right;
+    margin-top: -2px;
+    margin-right: 40px;
+}
+
+nav ul.menu-principal {
+    list-style: none;
+    width: 730px;
+    height: 32px;
+    margin-top: 0px;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.menu-principal .menu-item {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.menu-principal .menu-item a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 2px .4em;
+    line-height: 1.5;
+    zoom: 1;
+    font-weight: bold;
+}
+
+ul.menu-principal li {
+    margin-left: 18px !important;
+}
+
+ul.menu-principal li a:hover {
+    color: #fff;
+    box-shadow: inset 0px 0px 5px #999;
+    border-radius:  5px;
+}
+
+.slider {
+    width: 640px;
+    height: 297px;
+    margin: 0;
+    float: left;
+    background-image: url(../img/varios/bg-slider.png); 
+    margin-left: 0px !important;
+    padding-left: 1px;
+    margin-top: -2px;
+}
+
+.papaya {
+    width: 287px;
+    height: 271px;
+    margin: 0;
+    float: left;
+    margin-top: 10px;
+}
+
+.contenido {
+    margin: 0 auto;
+    width: 940px;
+    height: auto;
+}
+
+.publicidad {
+    width: 295px;
+    height: auto;
+    float: left;
+    margin-left: 6px;
+}
+
+.publicidad a img {
+    width: 280px;
+    height: 200px;
+    margin: 0 0 10px 0;
+    background-color: #ccc;
+}
+
+.contenido-interno {
+    width: 609px;
+    height: auto;
+    margin: 0;
+    float: right;
+}
+
+.contenido-interno h1 {
+    font-style: normal;
+    font-weight: bold;
+    color: #DC1F26;
+    text-decoration: none;
+    display: block;
+}
+
+.contenido-interno h4 {
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #414141;
+    text-decoration: none;
+    display: block;
+}
+
+.clearbox {
+    clear: both;
+}
+
+/* ---------- verCines ----------*/
+
+.contenido-cine {
+    width:250px;
+    height:350px;
+    margin-top:10px;
+    margin-right:50px;
+    padding:10px;
+    float:left;  
+    display:inline;
+    background-color:#EEE;
+    border:1px solid #cccccc;
+}
+
+.datos-cine {
+    font-size: 12px;
+    margin-bottom: 0em;
+    margin-top: 0.8em !important;
+    color: #666666;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+
+/* ---------- verPeliculas ----------*/
+
+.contenido-peliculas {
+    width: 600px;
+    height: auto;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+.datos-pelicula {
+    width: 425px;
+    height: auto;
+    margin: 0 0 0 0;
+    float: left;
+}
+
+.datos-pelicula h2 {
+    font-size: 14px !important;
+    color: #000;
+    margin-bottom: 0.7em !important;
+    margin-top: 1em !important;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.datos-pelicula p {
+    font-family: "Century Gothic", Arial, Verdana !important;
+    font-size: 12px;
+    margin-top: 0.8em !important;
+    color: #666666;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.boton-pelicula {
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-right: 3px;
+}
+
+
+/* ---------- verPelicula ----------*/
+
+.datos-pelicula .tabla {
+    display: table;
+    font-size: 12px;
+    margin-bottom: 0em;
+    margin-top: 0.8em !important;
+    color: #666666;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.datos-pelicula .fila {
+    display: table-row;
+}
+
+.datos-pelicula .celda-titulo {
+    font-weight: bold;
+    height: 25px;
+}
+
+.datos-pelicula .celda {
+    display: table-cell;
+    width: 72%;
+}
+
+.pelicula-video {
+    margin-top: 70px;
+}
+
+
+/* ---------- verCine ----------*/
+
+.cine-info {
+    background-color: #FFF;
+    width: 600px;
+    height: auto;
+}
+
+.cine-info .datos {
+    width: 55%;
+}
+
+.cine-info .impar {
+    background-color: rgb(255, 253, 221);
+}
+
+.cine-info .celda-titulo {
+    width : 80%;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: #666;
+    cursor: pointer;
+    line-height: 17px;
+}
+
+.cine-info .celda {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #666;
+    cursor: pointer;
+    float: right;
+    margin-top: -15px;
+    line-height: 17px;
+}
+
+.cine-info p {
+	text-align: justify;
+}
+
+.aviso p {
+	font-size: 10px;
+}
+
+.cine-info img {
+    float : right;
+    margin: -265px 5px 0 0;
+}
+
+.cine-info .peliculas {
+	width: 600px;
+}
+
+.celda-cabecera {
+    display: inline-block;
+	width: 50%;
+	border: 0;
+    border-bottom: 1px;
+    border-color: #FFFAB4;
+    border-style: solid;
+    color: #FFFFFF;
+    background-color: #000;
+    font-size: 11px;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    margin-right: -4px;
+}
+
+.celda-cabecera .pelicula {
+    
+}
